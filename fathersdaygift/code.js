@@ -30,7 +30,7 @@ async function LoadGallery() {
 
             // 3. Nest them: gallery > a > img
             link.appendChild(imgElement);
-            gallery.prependChild(link);
+            gallery.prepend(link);
         });
 
         document.getElementById("LoadImagesBtn").remove();
