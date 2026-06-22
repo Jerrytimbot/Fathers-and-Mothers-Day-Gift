@@ -7,7 +7,7 @@ async function LoadGallery() {
     document.getElementById("gallery-body").appendChild(loader)
 
     const cloudName = 'dxjlwi2br';
-    const tagName = "Mom's Mothers Day";
+    const tagName = "Dad's Fathers Day";
     const url = `https://res.cloudinary.com/${cloudName}/image/list/${tagName}.json`;
 
     try {
